@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2017.2/system/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_DataWareHouse.-164064829.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DataWareHouse.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="BuildingBlocks" t="Include">
+          <e p="EventBus" t="Include">
+            <e p="EventBus" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="EventBus.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="EventBus.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="EventBusRabbitMQ" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="EventBusRabbitMQ.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="EventBusRabbitMQ.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="EventBusServiceBus" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="EventBusServiceBus.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="EventBusServiceBus.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="IntegrationEventLog" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="IntegrationEventLog.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="IntegrationEventLog.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="HealthChecks" t="Include">
+            <e p="AspNetCore.HealthChecks" t="IncludeRecursive">
+              <e p="AspNetCore.HealthChecks.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="AspNetCore.HealthChecks.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Postgresql.HealthChecks" t="IncludeRecursive">
+              <e p="Postgresql.HealthChecks.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="Postgresql.HealthChecks.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="WebHost" t="Include">
+            <e p="WebHost.Customization" t="IncludeRecursive">
+              <e p="WebHost.Customization.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="WebHost.Customization.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="Game" t="Include">
+            <e p="Game.API" t="IncludeRecursive">
+              <e p="Controllers" t="Include">
+                <e p="ValuesController.cs" t="Include" />
+              </e>
+              <e p="Dockerfile" t="Include" />
+              <e p="Game.API.csproj" t="IncludeRecursive" />
+              <e p="Program.cs" t="Include" />
+              <e p="README.md" t="Include" />
+              <e p="Startup.cs" t="Include" />
+              <e p="appsettings.Development.json" t="Include" />
+              <e p="appsettings.json" t="Include" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netcoreapp2.0" t="Include">
+                    <e p="Game.API.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="web.config" t="Include" />
+            </e>
+            <e p="Game.Domain" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="Game.Domain.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="Game.Domain.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Game.Infrastructure" t="IncludeRecursive">
+              <e p="Class1.cs" t="Include" />
+              <e p="Game.Infrastructure.csproj" t="IncludeRecursive" />
+              <e p="bin" t="ExcludeRecursive" />
+              <e p="obj" t="ExcludeRecursive">
+                <e p="Debug" t="Include">
+                  <e p="netstandard2.0" t="Include">
+                    <e p="Game.Infrastructure.AssemblyInfo.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
