@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using Game.Domain.Exceptions;
 
-namespace Game.Domain.Aggregates.GameAggregate
+namespace Game.Domain.Aggregates.MatchAggregate
 {
-    public class GameStatus : Enumeration
+    public class MatchStatus : Enumeration
     {
-        public static GameStatus Pending = new GameStatus(1, nameof(Pending).ToLowerInvariant());
-        public static GameStatus InProgress = new GameStatus(2, nameof(InProgress).ToLowerInvariant());
-        public static GameStatus Completed = new GameStatus(3, nameof(Completed).ToLowerInvariant());
+        public static MatchStatus Pending = new MatchStatus(1, nameof(Pending).ToLowerInvariant());
+        public static MatchStatus InProgress = new MatchStatus(2, nameof(InProgress).ToLowerInvariant());
+        public static MatchStatus Completed = new MatchStatus(3, nameof(Completed).ToLowerInvariant());
 
-        protected GameStatus()
+        protected MatchStatus()
         {
         }
 
-        public GameStatus(int id, string name) : base(id, name)
+        public MatchStatus(int id, string name) : base(id, name)
         {
         }
 
-        public static IEnumerable<GameStatus> List() => new[] {Pending, InProgress, Completed};
+        public static IEnumerable<MatchStatus> List() => new[] {Pending, InProgress, Completed};
 
-        public static GameStatus FromName(string name)
+        public static MatchStatus FromName(string name)
         {
             var state = List()
                 .SingleOrDefault(s => string.Equals(s.Name, name, StringComparison.CurrentCultureIgnoreCase));
@@ -34,7 +34,7 @@ namespace Game.Domain.Aggregates.GameAggregate
             return state;
         }
 
-        public static GameStatus From(int id)
+        public static MatchStatus From(int id)
         {
             var state = List().SingleOrDefault(s => s.Id == id);
 

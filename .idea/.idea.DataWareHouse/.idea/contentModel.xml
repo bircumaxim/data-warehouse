@@ -98,11 +98,19 @@
         <e p="Services" t="Include">
           <e p="Game" t="Include">
             <e p="Game.API" t="IncludeRecursive">
+              <e p="Application" t="Include">
+                <e p="Queries" t="Include">
+                  <e p="IMatchQueries.cs" t="Include" />
+                  <e p="MatchViewModel.cs" t="Include" />
+                </e>
+              </e>
               <e p="Controllers" t="Include">
+                <e p="MatchController.cs" t="Include" />
                 <e p="ValuesController.cs" t="Include" />
               </e>
               <e p="Dockerfile" t="Include" />
               <e p="Game.API.csproj" t="IncludeRecursive" />
+              <e p="Infrastructure" t="Include" />
               <e p="Program.cs" t="Include" />
               <e p="README.md" t="Include" />
               <e p="Startup.cs" t="Include" />
@@ -125,16 +133,16 @@
                   <e p="ChessPlayerLevel.cs" t="Include" />
                   <e p="IChessPlayerRepository.cs" t="Include" />
                 </e>
-                <e p="GameAggregate" t="Include">
-                  <e p="Game.cs" t="Include" />
-                  <e p="GameStatus.cs" t="Include" />
-                  <e p="IGameRepository.cs" t="Include" />
+                <e p="MatchAggregate" t="Include">
+                  <e p="IMatchRepository.cs" t="Include" />
+                  <e p="Match.cs" t="Include" />
+                  <e p="MatchStatus.cs" t="Include" />
                 </e>
               </e>
               <e p="Entity.cs" t="Include" />
               <e p="Enumeration.cs" t="Include" />
               <e p="Events" t="Include">
-                <e p="GameStartedDomainEvent.cs" t="Include" />
+                <e p="MatchStartedDomainEvent.cs" t="Include" />
               </e>
               <e p="Exceptions" t="Include">
                 <e p="GameDomainException.cs" t="Include" />

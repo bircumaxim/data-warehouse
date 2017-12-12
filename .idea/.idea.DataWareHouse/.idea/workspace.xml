@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ffa1c1-750b-4968-b8ed-0292db361d3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Game.Domain.csproj" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Game.Domain.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Game.API.csproj" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Game.API.csproj" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,48 +28,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>game</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.Api/Program.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/README.md" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/web.config.xml" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/web.config" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/AspNetCore.HealthChecks/Class1.cs" />
         <option value="$PROJECT_DIR$/src/BuildingBlocks/IntegrationEventLog/Class1.cs" />
         <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/HealthChecks/Class1.cs" />
         <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/Class1.cs" />
@@ -113,6 +108,18 @@
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IGameQueries.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/GameController.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IMatchRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Match.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +176,23 @@
               <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Game.API" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Game.API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,11 +248,13 @@
       <updated>1513030883855</updated>
       <workItem from="1513030885173" duration="4046000" />
       <workItem from="1513035035017" duration="6428000" />
+      <workItem from="1513066573458" duration="1677000" />
+      <workItem from="1513068339328" duration="217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10474000" />
+    <option name="totallyTimeSpent" value="13003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,29 +270,29 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26040554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,33 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513035471469" expanded="true" signature="6:48" ph="..." />
-            <marker date="1513035471469" expanded="true" signature="71:2111" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="106:2109" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="387:521" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="585:741" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="634:686" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="776:835" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="884:1386" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="928:986" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1031:1088" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1133:1191" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1283:1341" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="1429:1748" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1471:1699" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1535:1635" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="1815:1982" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1861:1933" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="2049:2103" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -316,20 +315,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Api/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -413,26 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1513035471469" expanded="true" signature="6:48" ph="..." />
-            <marker date="1513035471469" expanded="true" signature="71:2111" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="106:2109" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="387:521" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="585:741" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="634:686" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="776:835" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="884:1386" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="928:986" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1031:1088" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1133:1191" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1283:1341" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="1429:1748" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1471:1699" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1535:1635" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="1815:1982" ph="{...}" />
-            <marker date="1513035471469" expanded="true" signature="1861:1933" ph="{...}" />
-            <marker date="1513035471469" expanded="false" signature="2049:2103" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,21 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding>
-            <marker date="1513035684796" expanded="true" signature="6:52" ph="..." />
-            <marker date="1513035684796" expanded="true" signature="75:1850" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="115:1848" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="202:426" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="288:346" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="511:581" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="697:1524" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="766:824" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="1069:1444" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="1191:1261" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="1360:1430" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="1567:1731" ph="{...}" />
-            <marker date="1513035684796" expanded="true" signature="1769:1842" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,11 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1513035608769" expanded="true" signature="6:67" ph="..." />
-            <marker date="1513035608769" expanded="true" signature="90:367" ph="{...}" />
-            <marker date="1513035608769" expanded="true" signature="139:365" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,10 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1513035553279" expanded="true" signature="21:82" ph="{...}" />
-            <marker date="1513035553279" expanded="true" signature="59:80" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1513036125308" expanded="true" signature="47:387" ph="{...}" />
-            <marker date="1513036125308" expanded="true" signature="98:385" ph="{...}" />
-            <marker date="1513036125308" expanded="true" signature="141:161" ph="{...}" />
-            <marker date="1513036125308" expanded="true" signature="229:249" ph="{...}" />
-            <marker date="1513036125308" expanded="true" signature="359:379" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,95 +433,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <marker date="1513035608783" expanded="true" signature="21:138" ph="{...}" />
-            <marker date="1513035608783" expanded="true" signature="84:136" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1513039952737" expanded="false" signature="6:96" ph="..." />
-            <marker date="1513039952737" expanded="true" signature="144:1583" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="188:1581" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="530:550" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="615:635" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="788:1079" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="972:1042" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="1126:1340" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="1233:1303" ph="{...}" />
-            <marker date="1513039952737" expanded="true" signature="1394:1575" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <marker date="1513039961083" expanded="true" signature="77:335" ph="{...}" />
-            <marker date="1513039961083" expanded="true" signature="150:333" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer.cs" />
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerType.cs" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
           <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <marker date="1513040759565" expanded="false" signature="6:91" ph="..." />
-            <marker date="1513040759565" expanded="true" signature="114:2802" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="154:2800" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="261:281" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="333:399" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="442:487" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="566:1033" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="764:1023" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="926:1009" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="1082:1375" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="1142:1200" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="1418:1475" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="1570:1708" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="1786:1927" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="2020:2185" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="2306:2671" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="2425:2627" ph="{...}" />
-            <marker date="1513040759565" expanded="true" signature="2715:2794" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1513040202946" expanded="true" signature="44:300" ph="{...}" />
-            <marker date="1513040202946" expanded="true" signature="102:298" ph="{...}" />
-            <marker date="1513040202946" expanded="true" signature="247:292" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,10 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1513041007751" expanded="true" signature="84:304" ph="{...}" />
-            <marker date="1513041007751" expanded="true" signature="130:302" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,43 +456,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <marker date="1513041501040" expanded="true" signature="53:337" ph="{...}" />
-            <marker date="1513041501040" expanded="true" signature="98:335" ph="{...}" />
-            <marker date="1513041501040" expanded="true" signature="192:241" ph="{...}" />
-            <marker date="1513041501040" expanded="true" signature="282:329" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/HomeController.cs" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
-            <marker date="1513041604963" expanded="true" signature="68:665" ph="{...}" />
             <marker date="1513041604963" expanded="true" signature="124:663" ph="{...}" />
             <marker date="1513041604963" expanded="true" signature="460:657" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs">
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513067290668" expanded="true" signature="6:59" ph="..." />
+            <marker date="1513067290668" expanded="true" signature="148:301" ph="{...}" />
+            <marker date="1513067290668" expanded="true" signature="248:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding>
-            <marker date="1513040790052" expanded="true" signature="6:69" ph="..." />
-            <marker date="1513040790052" expanded="true" signature="117:1921" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="166:1919" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="456:658" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="708:855" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="910:1015" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="1059:1340" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="1125:1215" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="1383:1659" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="1452:1541" ph="{...}" />
-            <marker date="1513040790052" expanded="true" signature="1734:1913" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="6:96" ph="..." />
+            <marker date="1513067302738" expanded="true" signature="190:1594" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="539:559" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="625:645" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="800:1091" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="984:1054" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="1139:1353" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="1246:1316" ph="{...}" />
+            <marker date="1513067302738" expanded="true" signature="1407:1588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1513067318177" expanded="true" signature="139:270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1513067444768" expanded="false" signature="6:65" ph="..." />
+            <marker date="1513067444768" expanded="true" signature="178:851" ph="{...}" />
+            <marker date="1513067444768" expanded="true" signature="269:343" ph="{...}" />
+            <marker date="1513067444768" expanded="true" signature="432:480" ph="{...}" />
+            <marker date="1513067444768" expanded="true" signature="577:597" ph="{...}" />
+            <marker date="1513067444768" expanded="true" signature="709:729" ph="{...}" />
+            <marker date="1513067444768" expanded="true" signature="825:845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1513068345516" expanded="true" signature="6:69" ph="..." />
+            <marker date="1513068345516" expanded="true" signature="168:1950" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="465:673" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="724:872" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="927:1032" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="1076:1362" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="1144:1235" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="1405:1686" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="1476:1566" ph="{...}" />
+            <marker date="1513068345516" expanded="true" signature="1763:1944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1513068345516" expanded="false" signature="6:108" ph="..." />
+            <marker date="1513068345516" expanded="true" signature="185:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1513068345512" expanded="true" signature="53:643" ph="{...}" />
+            <marker date="1513068345512" expanded="true" signature="78:309" ph="{...}" />
+            <marker date="1513068345512" expanded="true" signature="340:525" ph="{...}" />
+            <marker date="1513068345512" expanded="true" signature="552:641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1513068530206" expanded="false" signature="6:178" ph="..." />
+            <marker date="1513068530206" expanded="true" signature="210:1477" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="258:1475" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="444:646" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="895:1169" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="921:1055" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="1096:1159" ph="{...}" />
+            <marker date="1513068530206" expanded="true" signature="1353:1469" ph="{...}" />
           </folding>
         </state>
       </provider>
