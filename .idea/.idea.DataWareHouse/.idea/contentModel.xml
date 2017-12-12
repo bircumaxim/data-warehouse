@@ -119,8 +119,31 @@
               <e p="web.config" t="Include" />
             </e>
             <e p="Game.Domain" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
+              <e p="Aggregates" t="Include">
+                <e p="ChessPlayerAggregate" t="Include">
+                  <e p="ChessPlayer.cs" t="Include" />
+                  <e p="ChessPlayerLevel.cs" t="Include" />
+                  <e p="IChessPlayerRepository.cs" t="Include" />
+                </e>
+                <e p="GameAggregate" t="Include">
+                  <e p="Game.cs" t="Include" />
+                  <e p="GameStatus.cs" t="Include" />
+                  <e p="IGameRepository.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Entity.cs" t="Include" />
+              <e p="Enumeration.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="GameStartedDomainEvent.cs" t="Include" />
+              </e>
+              <e p="Exceptions" t="Include">
+                <e p="GameDomainException.cs" t="Include" />
+              </e>
               <e p="Game.Domain.csproj" t="IncludeRecursive" />
+              <e p="IAggregateRoot.cs" t="Include" />
+              <e p="IRepository.cs" t="Include" />
+              <e p="IUnitOfWork.cs" t="Include" />
+              <e p="ValueObject.cs" t="Include" />
               <e p="bin" t="ExcludeRecursive" />
               <e p="obj" t="ExcludeRecursive">
                 <e p="Debug" t="Include">

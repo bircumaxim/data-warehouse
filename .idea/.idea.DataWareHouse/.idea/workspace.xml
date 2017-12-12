@@ -2,40 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ffa1c1-750b-4968-b8ed-0292db361d3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/web.config" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controllers/ValuesController.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataWareHouse.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataWareHouse.sln" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Startup.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appsettings.Development.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appsettings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp2.0/DataWareHouse.deps.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp2.0/DataWareHouse.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp2.0/DataWareHouse.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp2.0/DataWareHouse.runtimeconfig.dev.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp2.0/DataWareHouse.runtimeconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/DataWareHouse.csproj.nuget.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/DataWareHouse.csproj.nuget.g.props" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/DataWareHouse.csproj.nuget.g.targets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.AssemblyInfoInputs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.csproj.CoreCompileInputs.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp2.0/DataWareHouse.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/project.assets.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/project.packagespec.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.props" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.targets" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWareHouse/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/src/.idea/.idea.DataWareHouse/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWareHouse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/.idea/.idea.DataWareHouse/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Game.Domain.csproj" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Game.Domain.csproj" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +30,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +91,28 @@
         <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" />
         <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/Game/GameStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/Game/IGameRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/Game/ChessPlayer.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer/ChessPlayer.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer/ChessPlayerType.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/Game/Game.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerType.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" />
       </list>
     </option>
   </component>
@@ -150,57 +160,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost.Customization" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost.Customization" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost.Customization" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name=".NETStandard 2" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="BuildingBlocks" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="WebHost.Customization" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name=".NETStandard 2" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="SDK" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -209,14 +168,6 @@
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game.API" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -228,7 +179,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BuildingBlocks/EventBus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eShopOnContainers-dev/eShopOnContainers.sln" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -260,6 +212,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b5ffa1c1-750b-4968-b8ed-0292db361d3f" name="Default" comment="" />
@@ -267,12 +222,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513030883855</updated>
-      <workItem from="1513030885173" duration="3454000" />
+      <workItem from="1513030885173" duration="4046000" />
+      <workItem from="1513035035017" duration="6428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3454000" />
+    <option name="totallyTimeSpent" value="10474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,28 +241,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2529349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -321,41 +280,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513031055949" expanded="true" signature="36:76" ph="{...}" />
-            <marker date="1513031055949" expanded="true" signature="62:74" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="6:48" ph="..." />
+            <marker date="1513035471469" expanded="true" signature="71:2111" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="106:2109" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="387:521" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="585:741" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="634:686" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="776:835" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="884:1386" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="928:986" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1031:1088" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1133:1191" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1283:1341" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="1429:1748" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1471:1699" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1535:1635" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="1815:1982" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1861:1933" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="2049:2103" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1513031110639" expanded="true" signature="44:84" ph="{...}" />
-            <marker date="1513031110639" expanded="true" signature="70:82" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Api/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Api/Program.cs" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -363,16 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <marker date="1513031230238" expanded="false" signature="6:128" ph="..." />
-            <marker date="1513031230238" expanded="true" signature="160:916" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="241:914" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="332:406" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="495:543" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="640:660" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="772:792" ph="{...}" />
-            <marker date="1513031230238" expanded="true" signature="888:908" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,7 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -388,10 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <marker date="1513031453188" expanded="true" signature="42:189" ph="{...}" />
-            <marker date="1513031453188" expanded="true" signature="88:185" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,183 +348,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <marker date="1513031428888" expanded="true" signature="0:236" ph="{...}" />
-            <marker date="1513031428888" expanded="true" signature="42:234" ph="{...}" />
-            <marker date="1513031428888" expanded="true" signature="85:149" ph="{...}" />
-            <marker date="1513031428888" expanded="true" signature="105:143" ph="{...}" />
-            <marker date="1513031428888" expanded="true" signature="166:230" ph="{...}" />
-            <marker date="1513031428888" expanded="true" signature="186:224" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config.xml" />
     <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/AspNetCore.HealthChecks/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/IntegrationEventLog/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/HealthChecks/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBuss/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussRabbitMQ/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussServiceBuss/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/WebHost/WebHost.Customization/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/Postgresql.HealthChecks/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/IntegrationEventLog.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/AspNetCore.HealthChecks/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/IntegrationEventLog/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/HealthChecks/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBuss/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussRabbitMQ/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussServiceBuss/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/WebHost/WebHost.Customization/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/Postgresql.HealthChecks/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/IntegrationEventLog.csproj" />
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1513033523700" expanded="true" signature="33:73" ph="{...}" />
-            <marker date="1513033523700" expanded="true" signature="59:71" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussRabbitMQ/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBussServiceBuss/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.vb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussRabbitMQ/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBussServiceBuss/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.vb" />
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1513033596497" expanded="true" signature="44:84" ph="{...}" />
-            <marker date="1513033596497" expanded="true" signature="70:82" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1513033790690" expanded="true" signature="43:83" ph="{...}" />
-            <marker date="1513033790690" expanded="true" signature="69:81" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,10 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1513033767257" expanded="true" signature="41:81" ph="{...}" />
-            <marker date="1513033767257" expanded="true" signature="67:79" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,7 +406,244 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1513035471469" expanded="true" signature="6:48" ph="..." />
+            <marker date="1513035471469" expanded="true" signature="71:2111" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="106:2109" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="387:521" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="585:741" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="634:686" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="776:835" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="884:1386" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="928:986" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1031:1088" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1133:1191" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1283:1341" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="1429:1748" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1471:1699" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1535:1635" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="1815:1982" ph="{...}" />
+            <marker date="1513035471469" expanded="true" signature="1861:1933" ph="{...}" />
+            <marker date="1513035471469" expanded="false" signature="2049:2103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <marker date="1513035684796" expanded="true" signature="6:52" ph="..." />
+            <marker date="1513035684796" expanded="true" signature="75:1850" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="115:1848" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="202:426" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="288:346" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="511:581" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="697:1524" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="766:824" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="1069:1444" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="1191:1261" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="1360:1430" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="1567:1731" ph="{...}" />
+            <marker date="1513035684796" expanded="true" signature="1769:1842" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1513035608769" expanded="true" signature="6:67" ph="..." />
+            <marker date="1513035608769" expanded="true" signature="90:367" ph="{...}" />
+            <marker date="1513035608769" expanded="true" signature="139:365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1513035553279" expanded="true" signature="21:82" ph="{...}" />
+            <marker date="1513035553279" expanded="true" signature="59:80" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1513036125308" expanded="true" signature="47:387" ph="{...}" />
+            <marker date="1513036125308" expanded="true" signature="98:385" ph="{...}" />
+            <marker date="1513036125308" expanded="true" signature="141:161" ph="{...}" />
+            <marker date="1513036125308" expanded="true" signature="229:249" ph="{...}" />
+            <marker date="1513036125308" expanded="true" signature="359:379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1513035608783" expanded="true" signature="21:138" ph="{...}" />
+            <marker date="1513035608783" expanded="true" signature="84:136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1513039952737" expanded="false" signature="6:96" ph="..." />
+            <marker date="1513039952737" expanded="true" signature="144:1583" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="188:1581" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="530:550" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="615:635" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="788:1079" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="972:1042" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="1126:1340" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="1233:1303" ph="{...}" />
+            <marker date="1513039952737" expanded="true" signature="1394:1575" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <marker date="1513039961083" expanded="true" signature="77:335" ph="{...}" />
+            <marker date="1513039961083" expanded="true" signature="150:333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <marker date="1513040759565" expanded="false" signature="6:91" ph="..." />
+            <marker date="1513040759565" expanded="true" signature="114:2802" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="154:2800" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="261:281" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="333:399" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="442:487" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="566:1033" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="764:1023" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="926:1009" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="1082:1375" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="1142:1200" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="1418:1475" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="1570:1708" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="1786:1927" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="2020:2185" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="2306:2671" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="2425:2627" ph="{...}" />
+            <marker date="1513040759565" expanded="true" signature="2715:2794" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1513040202946" expanded="true" signature="44:300" ph="{...}" />
+            <marker date="1513040202946" expanded="true" signature="102:298" ph="{...}" />
+            <marker date="1513040202946" expanded="true" signature="247:292" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1513041007751" expanded="true" signature="84:304" ph="{...}" />
+            <marker date="1513041007751" expanded="true" signature="130:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1513041501040" expanded="true" signature="53:337" ph="{...}" />
+            <marker date="1513041501040" expanded="true" signature="98:335" ph="{...}" />
+            <marker date="1513041501040" expanded="true" signature="192:241" ph="{...}" />
+            <marker date="1513041501040" expanded="true" signature="282:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <marker date="1513041604963" expanded="true" signature="68:665" ph="{...}" />
+            <marker date="1513041604963" expanded="true" signature="124:663" ph="{...}" />
+            <marker date="1513041604963" expanded="true" signature="460:657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1513040790052" expanded="true" signature="6:69" ph="..." />
+            <marker date="1513040790052" expanded="true" signature="117:1921" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="166:1919" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="456:658" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="708:855" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="910:1015" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="1059:1340" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="1125:1215" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="1383:1659" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="1452:1541" ph="{...}" />
+            <marker date="1513040790052" expanded="true" signature="1734:1913" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
