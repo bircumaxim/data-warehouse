@@ -2,20 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ffa1c1-750b-4968-b8ed-0292db361d3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/Game.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/IGameRepository.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/GameStartedDomainEvent.cs" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/GameAggregate/GameStatus.cs" afterPath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Services/Banking/Entities/JobStatus.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/.idea/contentModel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/.idea/indexLayout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.idea/.idea.DataWarehouse/riderModule.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/IntegrationEventLog.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/AspNetCore.HealthChecks/AspNetCore.HealthChecks.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/Postgresql.HealthChecks/Postgresql.HealthChecks.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BuildingBlocks/WebHost/WebHost.Customization/WebHost.Customization.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Game.API.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Startup.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/Game.Domain.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Game.Infrastructure.csproj" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Game/Game.API/Game.API.csproj" afterPath="$PROJECT_DIR$/src/Services/Game/Game.API/Game.API.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataWareHouse.sln" afterPath="$PROJECT_DIR$/DataWareHouse.sln" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +62,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Services/Banking/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <marker date="1513105221947" expanded="true" signature="6:199" ph="..." />
+                <marker date="1513105221947" expanded="true" signature="218:998" ph="{...}" />
+                <marker date="1513105221947" expanded="true" signature="245:996" ph="{...}" />
+                <marker date="1513105221947" expanded="true" signature="304:367" ph="{...}" />
+                <marker date="1513105221947" expanded="true" signature="590:641" ph="{...}" />
+                <marker date="1513105221947" expanded="true" signature="829:990" ph="{...}" />
+                <marker date="1513105221947" expanded="true" signature="876:953" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -37,55 +94,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Events/MatchStartedDomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/Match.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/MatchStatus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/MatchAggregate/IMatchRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/IChessPlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Aggregates/ChessPlayerAggregate/ChessPlayerLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Exceptions/GameDomainException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/ValueObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Enumeration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Entities/JobStatus.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Entities/PaymentStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Payment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Services/Banking/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/IntegrationEventLog/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/HealthChecks/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBuss/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussRabbitMQ/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussServiceBuss/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/WebHost/WebHost.Customization/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/Postgresql.HealthChecks/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussRabbitMQ/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBussServiceBuss/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.vb" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/IntegrationEventLog/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusRabbitMQ/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBusServiceBus/Class1.cs" />
-        <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Dockerfile" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/Entity.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/IAggregateRoot.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.Domain/IUnitOfWork.cs" />
@@ -120,6 +138,23 @@
         <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/IMatchQueries.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Application/Queries/MatchViewModel.cs" />
         <option value="$PROJECT_DIR$/src/Services/Game/Game.API/Controllers/MatchController.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Program.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Controllers/MatchController.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entitities/Student.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entitities/StudentGroup.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entities2/PaymentStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entitities/Professor.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entities2/Card.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entities2/Payment.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entities2/Transaction.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Ordering/Entities2/Client.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Entities/JobStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Entities/Client.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Entities/Payment.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Entities/PaymentStatus.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Entities/Transaction.cs" />
+        <option value="$PROJECT_DIR$/src/Services/Banking/Startup.cs" />
       </list>
     </option>
   </component>
@@ -129,11 +164,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="55" />
-    <option name="width" value="1390" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -150,61 +185,161 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
-          <expand>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game.API" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DataWareHouse (10 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Game.API" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataWareHouse (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banking" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataWareHouse (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banking" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataWareHouse (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banking" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataWareHouse (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banking" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependencies" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".NETCoreApp 2" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataWareHouse (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banking" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependencies" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".NETCoreApp 2" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Packages" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eShopOnContainers-dev/eShopOnContainers.sln" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Services/Banking/Banking.csproj" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,20 +353,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
-    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+  <component name="RunManager" selected=".NET Project.Main">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <envs />
+      <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/Services/Banking/Banking.csproj" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/src/Services/Banking/bin/Debug/netcoreapp2.0/Banking.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Production" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Main" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -250,11 +444,12 @@
       <workItem from="1513035035017" duration="6428000" />
       <workItem from="1513066573458" duration="1677000" />
       <workItem from="1513068339328" duration="217000" />
+      <workItem from="1513097190387" duration="7049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13003000" />
+    <option name="totallyTimeSpent" value="20052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,37 +461,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26040554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -306,62 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Domain/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Infrastructure/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.Api/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/Services/Game/Game.API/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/AspNetCore.HealthChecks/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/IntegrationEventLog/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/HealthChecks/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBuss/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussRabbitMQ/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/EventBussServiceBuss/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/WebHost/WebHost.Customization/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/HealthChecks/Postgresql.HealthChecks/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Dockerfile" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBuss/IntegrationEventLog/IntegrationEventLog.csproj" />
-    <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBus/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussRabbitMQ/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBussServiceBuss/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/src/BuildingBlocks/EventBus/EventBussServiceBuss/Class1.vb" />
@@ -478,10 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <marker date="1513041604963" expanded="true" signature="124:663" ph="{...}" />
-            <marker date="1513041604963" expanded="true" signature="460:657" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,11 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513067290668" expanded="true" signature="6:59" ph="..." />
-            <marker date="1513067290668" expanded="true" signature="148:301" ph="{...}" />
-            <marker date="1513067290668" expanded="true" signature="248:295" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,17 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding>
-            <marker date="1513067302738" expanded="true" signature="6:96" ph="..." />
-            <marker date="1513067302738" expanded="true" signature="190:1594" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="539:559" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="625:645" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="800:1091" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="984:1054" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="1139:1353" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="1246:1316" ph="{...}" />
-            <marker date="1513067302738" expanded="true" signature="1407:1588" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1513067318177" expanded="true" signature="139:270" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,15 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <marker date="1513067444768" expanded="false" signature="6:65" ph="..." />
-            <marker date="1513067444768" expanded="true" signature="178:851" ph="{...}" />
-            <marker date="1513067444768" expanded="true" signature="269:343" ph="{...}" />
-            <marker date="1513067444768" expanded="true" signature="432:480" ph="{...}" />
-            <marker date="1513067444768" expanded="true" signature="577:597" ph="{...}" />
-            <marker date="1513067444768" expanded="true" signature="709:729" ph="{...}" />
-            <marker date="1513067444768" expanded="true" signature="825:845" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,18 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1513068345516" expanded="true" signature="6:69" ph="..." />
-            <marker date="1513068345516" expanded="true" signature="168:1950" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="465:673" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="724:872" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="927:1032" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="1076:1362" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="1144:1235" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="1405:1686" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="1476:1566" ph="{...}" />
-            <marker date="1513068345516" expanded="true" signature="1763:1944" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,10 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <marker date="1513068345516" expanded="false" signature="6:108" ph="..." />
-            <marker date="1513068345516" expanded="true" signature="185:293" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,12 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <marker date="1513068345512" expanded="true" signature="53:643" ph="{...}" />
-            <marker date="1513068345512" expanded="true" signature="78:309" ph="{...}" />
-            <marker date="1513068345512" expanded="true" signature="340:525" ph="{...}" />
-            <marker date="1513068345512" expanded="true" signature="552:641" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,15 +674,187 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Controllers/MatchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entitities/Professor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entitities/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entitities/StudentGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entities2/Card.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entities/Payment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entities/Transaction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entities/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Ordering/Entities/PaymentStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Application/Queries/IMatchQueries.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Controllers/MatchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <marker date="1513068530206" expanded="false" signature="6:178" ph="..." />
-            <marker date="1513068530206" expanded="true" signature="210:1477" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="258:1475" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="444:646" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="895:1169" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="921:1055" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="1096:1159" ph="{...}" />
-            <marker date="1513068530206" expanded="true" signature="1353:1469" ph="{...}" />
+            <marker date="1513104605887" expanded="true" signature="6:33" ph="..." />
+            <marker date="1513104605887" expanded="true" signature="61:373" ph="{...}" />
+            <marker date="1513104605887" expanded="true" signature="87:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Entities/JobStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Entities/PaymentStatus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding>
+            <marker date="1513104600949" expanded="true" signature="26:82" ph="{...}" />
+            <marker date="1513104600949" expanded="true" signature="59:80" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Payment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1513104605887" expanded="true" signature="6:13" ph="..." />
+            <marker date="1513104605887" expanded="true" signature="41:277" ph="{...}" />
+            <marker date="1513104605887" expanded="true" signature="68:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Entities/Transaction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1513104606150" expanded="true" signature="41:221" ph="{...}" />
+            <marker date="1513104606150" expanded="true" signature="72:219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1513105221947" expanded="true" signature="6:199" ph="..." />
+            <marker date="1513105221947" expanded="true" signature="218:998" ph="{...}" />
+            <marker date="1513105221947" expanded="true" signature="245:996" ph="{...}" />
+            <marker date="1513105221947" expanded="true" signature="304:367" ph="{...}" />
+            <marker date="1513105221947" expanded="true" signature="590:641" ph="{...}" />
+            <marker date="1513105221947" expanded="true" signature="829:990" ph="{...}" />
+            <marker date="1513105221947" expanded="true" signature="876:953" ph="{...}" />
           </folding>
         </state>
       </provider>
