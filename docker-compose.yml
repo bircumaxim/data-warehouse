@@ -5,21 +5,16 @@ services:
     image: data-warehouse/banking.api:${TAG:-latest}
     build:
       context: ./
-      dockerfile: ./src/Services/Banking/Dockerfile    
+      dockerfile: ./src/Services/Banking/Dockerfile
+    environment:
+      ConnectionStrings:Default: Server=postgres;Database=baking;User ID=postgres;Password=admin123;    
     ports:
       - "5000:80"
-#   depends_on:
-#     - sql.data
-#     - rabbitmq
+    depends_on:
+      - postgres
 
-#  sql.data:
-#    image: microsoft/mssql-server-linux:2017-latest
+  postgres:
+    image: postgres
+    environment: 
+      POSTGRES_PASSWORD: admin123
 
-#  nosql.data:
-#    image: mongo
-
-#  basket.data:
-#    image: redis
-      
-#  rabbitmq:
-#    image: rabbitmq:3-management

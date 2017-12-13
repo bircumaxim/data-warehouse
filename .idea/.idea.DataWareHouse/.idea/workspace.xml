@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ffa1c1-750b-4968-b8ed-0292db361d3f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Services/Banking/Controllers/HomeController.cs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/dataSources/d84a751b-3f46-43e4-94d4-a342567a7b4b.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/dataSources/d84a751b-3f46-43e4-94d4-a342567a7b4b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DataWareHouse/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Banking/Controllers/ClientController.cs" afterPath="$PROJECT_DIR$/src/Services/Banking/Controllers/ClientController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Banking/Controllers/PaymentController.cs" afterPath="$PROJECT_DIR$/src/Services/Banking/Controllers/PaymentController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Services/Banking/Data/DBApplicationContext.cs" afterPath="$PROJECT_DIR$/src/Services/Banking/Data/DBApplicationContext.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PaymentController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Services/Banking/Controllers/PaymentController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding>
                 <marker date="1513183785153" expanded="false" signature="6:213" ph="..." />
                 <marker date="1513183785153" expanded="true" signature="244:2159" ph="{...}" />
@@ -109,6 +103,20 @@
                 <marker date="1513183785153" expanded="true" signature="1489:1553" ph="{...}" />
                 <marker date="1513183785153" expanded="true" signature="1771:2151" ph="{...}" />
                 <marker date="1513183785153" expanded="true" signature="1835:1927" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Services/Banking/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="106" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="106" />
+              <folding>
+                <marker date="1513132759144" expanded="true" signature="15:162" ph="{...}" />
+                <marker date="1513132759144" expanded="true" signature="61:158" ph="{...}" />
+                <marker date="1513132759144" expanded="true" signature="188:301" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -286,7 +294,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Services/Banking/Banking.csproj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAD_Course_Thesis-master/Server/WebApplication/WebApplication.sln" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
@@ -417,12 +425,12 @@
       <workItem from="1513068339328" duration="217000" />
       <workItem from="1513097190387" duration="7843000" />
       <workItem from="1513106047770" duration="10008000" />
-      <workItem from="1513179313123" duration="3975000" />
+      <workItem from="1513179313123" duration="6250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48142000" />
+    <option name="totallyTimeSpent" value="50417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Banking/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -721,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/src/Services/Banking/Controllers/PaymentController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
           <folding>
             <marker date="1513183785153" expanded="false" signature="6:213" ph="..." />
             <marker date="1513183785153" expanded="true" signature="244:2159" ph="{...}" />
@@ -733,6 +734,18 @@
             <marker date="1513183785153" expanded="true" signature="1489:1553" ph="{...}" />
             <marker date="1513183785153" expanded="true" signature="1771:2151" ph="{...}" />
             <marker date="1513183785153" expanded="true" signature="1835:1927" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Services/Banking/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="106" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="106" />
+          <folding>
+            <marker date="1513132759144" expanded="true" signature="15:162" ph="{...}" />
+            <marker date="1513132759144" expanded="true" signature="61:158" ph="{...}" />
+            <marker date="1513132759144" expanded="true" signature="188:301" ph="{...}" />
           </folding>
         </state>
       </provider>
