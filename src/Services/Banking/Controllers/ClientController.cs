@@ -22,7 +22,7 @@ namespace Banking.Controllers
         [HttpGet(Name = "GetClient")]
         [ProducesResponseType(typeof(IEnumerable<Client>), (int) HttpStatusCode.OK)]
         [ProducesResponseType(typeof(PaginatedItemsViewModel<Client>), (int) HttpStatusCode.OK)]
-        public async Task<IActionResult> Get([FromQuery] int offset, [FromQuery] int limit)
+        public async Task<IActionResult> Get([FromQuery] int offset = 0, [FromQuery] int limit = 0)
         {
             if (offset != 0 || limit != 0)
             {

@@ -19,8 +19,8 @@ namespace Banking.Data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Transaction>();
-            modelBuilder.Entity<Payment>();
-            modelBuilder.Entity<Client>();
+            modelBuilder.Entity<Payment>().HasOne(t => t.Transaction);
+            modelBuilder.Entity<Client>().HasMany(p => p.Payments);
         }
     }
 }

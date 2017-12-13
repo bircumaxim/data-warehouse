@@ -12,7 +12,6 @@
             <e p="Banking.csproj" t="IncludeRecursive" />
             <e p="Controllers" t="Include">
               <e p="ClientController.cs" t="Include" />
-              <e p="HomeController.cs" t="Include" />
               <e p="PaymentController.cs" t="Include" />
               <e p="TransactionController.cs" t="Include" />
             </e>
@@ -40,7 +39,11 @@
               </e>
             </e>
             <e p="Dockerfile" t="Include" />
-            <e p="Migrations" t="Include" />
+            <e p="Migrations" t="Include">
+              <e p="20171213164308_InitMigration.Designer.cs" t="Include" />
+              <e p="20171213164308_InitMigration.cs" t="Include" />
+              <e p="DbApplicationContextModelSnapshot.cs" t="Include" />
+            </e>
             <e p="Program.cs" t="Include" />
             <e p="README.md" t="Include" />
             <e p="Startup.cs" t="Include" />

@@ -58,11 +58,9 @@ namespace Banking.Controllers
 
             _unitOfWork.PaymentRepository.Add(newPayment);
             _unitOfWork.Complete();
+            _unitOfWork.Dispose();
 
             return CreatedAtAction(nameof(Get), new {id = newPayment.Id}, null);
         }
-
-
-
     }
 }
