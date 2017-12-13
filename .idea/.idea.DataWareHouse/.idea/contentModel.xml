@@ -8,7 +8,6 @@
       <e p="src" t="Include">
         <e p="Services" t="Include">
           <e p="Banking" t="IncludeRecursive">
-            <e p="Application" t="Include" />
             <e p="Banking.csproj" t="IncludeRecursive" />
             <e p="Controllers" t="Include">
               <e p="ClientController.cs" t="Include" />
@@ -40,8 +39,8 @@
             </e>
             <e p="Dockerfile" t="Include" />
             <e p="Migrations" t="Include">
-              <e p="20171213164308_InitMigration.Designer.cs" t="Include" />
-              <e p="20171213164308_InitMigration.cs" t="Include" />
+              <e p="20171213203225_InitialMigration.Designer.cs" t="Include" />
+              <e p="20171213203225_InitialMigration.cs" t="Include" />
               <e p="DbApplicationContextModelSnapshot.cs" t="Include" />
             </e>
             <e p="Program.cs" t="Include" />

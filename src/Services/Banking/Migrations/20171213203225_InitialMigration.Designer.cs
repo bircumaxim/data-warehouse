@@ -11,8 +11,8 @@ using System;
 namespace Banking.Migrations
 {
     [DbContext(typeof(DbApplicationContext))]
-    [Migration("20171213164308_InitMigration")]
-    partial class InitMigration
+    [Migration("20171213203225_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -48,6 +48,8 @@ namespace Banking.Migrations
 
                     b.Property<DateTime>("From");
 
+                    b.Property<string>("Name");
+
                     b.Property<Guid?>("TransactionId");
 
                     b.HasKey("Id");
@@ -77,7 +79,7 @@ namespace Banking.Migrations
 
             modelBuilder.Entity("Banking.Data.Entitites.Payment", b =>
                 {
-                    b.HasOne("Banking.Data.Entitites.Client", "Client")
+                    b.HasOne("Banking.Data.Entitites.Client")
                         .WithMany("Payments")
                         .HasForeignKey("ClientId");
 

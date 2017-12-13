@@ -47,6 +47,8 @@ namespace Banking.Migrations
 
                     b.Property<DateTime>("From");
 
+                    b.Property<string>("Name");
+
                     b.Property<Guid?>("TransactionId");
 
                     b.HasKey("Id");
@@ -76,7 +78,7 @@ namespace Banking.Migrations
 
             modelBuilder.Entity("Banking.Data.Entitites.Payment", b =>
                 {
-                    b.HasOne("Banking.Data.Entitites.Client", "Client")
+                    b.HasOne("Banking.Data.Entitites.Client")
                         .WithMany("Payments")
                         .HasForeignKey("ClientId");
 

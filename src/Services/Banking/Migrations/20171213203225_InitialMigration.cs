@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Banking.Migrations
 {
-    public partial class InitMigration : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -44,6 +44,7 @@ namespace Banking.Migrations
                     ClientId = table.Column<Guid>(nullable: true),
                     Due = table.Column<DateTime>(nullable: false),
                     From = table.Column<DateTime>(nullable: false),
+                    Name = table.Column<string>(nullable: true),
                     TransactionId = table.Column<Guid>(nullable: true)
                 },
                 constraints: table =>

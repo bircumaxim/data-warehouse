@@ -13,5 +13,12 @@ namespace Banking.Data.Entitites
         {
             TransactionTime = DateTime.UtcNow;
         }
+
+        public Transaction(int amount, DateTime transactionTime, int taxRate)
+        {
+            Amount = amount;
+            TransactionTime = transactionTime;
+            TaxRate = taxRate;
+        }
     }
 }

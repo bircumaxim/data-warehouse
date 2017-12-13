@@ -7,6 +7,7 @@ namespace Banking.Data.UnitOfWork
     {
         IClientRepository ClientRepository { get; }
         IPaymentRepository PaymentRepository { get; }
+        ITransactionRepository TransactionRepository { get; }
         int Complete();
     }
 }

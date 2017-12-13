@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Banking.Data.Entitites;
@@ -24,13 +25,16 @@ namespace Banking.Controllers
         [ProducesResponseType(typeof(PaginatedItemsViewModel<Client>), (int) HttpStatusCode.OK)]
         public async Task<IActionResult> Get([FromQuery] int offset = 0, [FromQuery] int limit = 0)
         {
+            IEnumerable<Client> clients;
+            
             if (offset != 0 || limit != 0)
             {
-                return Ok(new PaginatedItemsViewModel<Client>(offset, limit, limit - offset,
-                    _unitOfWork.ClientRepository.GetRange(offset, limit)));
+                clients = _unitOfWork.ClientRepository.GetRange(offset, limit);
+                return Ok(new PaginatedItemsViewModel<Client>(offset, limit, clients.Count(), clients));
             }
 
-            return Ok(_unitOfWork.ClientRepository.GetAll());
+            clients = _unitOfWork.ClientRepository.GetAll();
+            return Ok(clients);
         }
 
         [HttpGet("{id}", Name = "GetClientById")]
@@ -80,7 +84,6 @@ namespace Banking.Controllers
             client.Cnp = newClient.Cnp;
             _unitOfWork.ClientRepository.Update(client);
             _unitOfWork.Complete();
-
             return CreatedAtAction(nameof(Get), new {id}, null);
         }
 

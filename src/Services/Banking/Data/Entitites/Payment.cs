@@ -5,10 +5,10 @@ namespace Banking.Data.Entitites
     public class Payment : IEntity
     {
         public Guid Id { get; set; }
-        public Transaction Transaction { get; set; }
+        public string Name { get; set; }
         public DateTime From { get; set; }
         public DateTime Due { get; set; }
-        public Client Client { get; set; }
+        public Transaction Transaction { get; set; }
 
         public Payment()
         {
@@ -21,6 +21,5 @@ namespace Banking.Data.Entitites
             From = from;
             Due = due;
         }
-
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using Banking.Data.Entitites;
@@ -26,10 +27,9 @@ namespace Banking.Controllers
         {
             if (offset != 0 || limit != 0)
             {
-                return Ok(new PaginatedItemsViewModel<Payment>(offset, limit, limit - offset,
-                    _unitOfWork.PaymentRepository.GetRange(offset, limit)));
+                var payments = _unitOfWork.PaymentRepository.GetRange(offset, limit);
+                return Ok(new PaginatedItemsViewModel<Payment>(offset, limit, payments.Count(), payments));
             }
-
             return Ok(_unitOfWork.PaymentRepository.GetAll());
         }
 
@@ -46,21 +46,54 @@ namespace Banking.Controllers
             return NotFound();
         }
 
-        [HttpPost(Name = "PostPayment")]
+        [HttpPost("{id}", Name = "PostPayment")]
         [ProducesResponseType((int) HttpStatusCode.Created)]
-        public async Task<IActionResult> Post([FromBody] Payment payment)
+        public async Task<IActionResult> Post(Guid id, [FromBody] Payment payment)
         {
-            var newPayment = new Payment
+            var client = _unitOfWork.ClientRepository.Get(id);
+            if (client == null)
             {
-                Id = Guid.NewGuid(),
-                Client = payment.Client
-            };
-
-            _unitOfWork.PaymentRepository.Add(newPayment);
+                return NotFound();
+            }
+            client.Payments.Add(payment);
+            _unitOfWork.ClientRepository.Update(client);
             _unitOfWork.Complete();
-            _unitOfWork.Dispose();
+            return CreatedAtAction(nameof(Get), new {id}, null);
+        }
 
-            return CreatedAtAction(nameof(Get), new {id = newPayment.Id}, null);
+
+        [HttpPut("{id}", Name = "PutPayment")]
+        [ProducesResponseType((int) HttpStatusCode.Created)]
+        public async Task<IActionResult> Put(Guid id, [FromBody] Payment newPayment)
+        {
+            var payment = _unitOfWork.PaymentRepository.Get(id);
+            if (payment == null)
+            {
+                return NotFound();
+            }
+
+            payment.Due = newPayment.Due;
+            payment.From = newPayment.From;
+            payment.Transaction = newPayment.Transaction;
+
+            _unitOfWork.PaymentRepository.Update(payment);
+            _unitOfWork.Complete();
+            return CreatedAtAction(nameof(Get), new {id}, null);
+        }
+
+        [HttpDelete("{id}", Name = "RemovePayment")]
+        [ProducesResponseType((int) HttpStatusCode.NoContent)]
+        public async Task<IActionResult> Remove(Guid id)
+        {
+            var payment = _unitOfWork.PaymentRepository.Get(id);
+
+            if (payment == null)
+            {
+                return NotFound();
+            }
+            _unitOfWork.PaymentRepository.Remove(payment);
+            _unitOfWork.Complete();
+            return NoContent();
         }
     }
 }

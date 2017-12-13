@@ -11,10 +11,12 @@ namespace Banking.Data.UnitOfWork
             _context = context;
             ClientRepository = new ClientRepository(_context);
             PaymentRepository = new PaymentRepoistory(_context);
+            TransactionRepository= new TransactionRepository(_context);
         }
 
         public IClientRepository ClientRepository { get; }
         public IPaymentRepository PaymentRepository { get; }
+        public ITransactionRepository TransactionRepository { get; }
 
         public int Complete()
         {
