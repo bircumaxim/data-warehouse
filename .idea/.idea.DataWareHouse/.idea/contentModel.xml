@@ -6,173 +6,66 @@
       <e p="DataWareHouse.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
-        <e p="BuildingBlocks" t="Include">
-          <e p="EventBus" t="Include">
-            <e p="EventBus" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
-              <e p="EventBus.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="EventBus.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-            <e p="EventBusRabbitMQ" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
-              <e p="EventBusRabbitMQ.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="EventBusRabbitMQ.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-            <e p="EventBusServiceBus" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
-              <e p="EventBusServiceBus.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="EventBusServiceBus.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-            <e p="IntegrationEventLog" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
-              <e p="IntegrationEventLog.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="IntegrationEventLog.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="HealthChecks" t="Include">
-            <e p="AspNetCore.HealthChecks" t="IncludeRecursive">
-              <e p="AspNetCore.HealthChecks.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="AspNetCore.HealthChecks.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-            <e p="Postgresql.HealthChecks" t="IncludeRecursive">
-              <e p="Postgresql.HealthChecks.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="Postgresql.HealthChecks.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="WebHost" t="Include">
-            <e p="WebHost.Customization" t="IncludeRecursive">
-              <e p="WebHost.Customization.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="WebHost.Customization.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Services" t="Include">
-          <e p="Game" t="Include">
-            <e p="Game.API" t="IncludeRecursive">
-              <e p="Application" t="Include">
-                <e p="Queries" t="Include">
-                  <e p="IMatchQueries.cs" t="Include" />
-                  <e p="MatchViewModel.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Controllers" t="Include">
-                <e p="MatchController.cs" t="Include" />
-                <e p="ValuesController.cs" t="Include" />
-              </e>
-              <e p="Dockerfile" t="Include" />
-              <e p="Game.API.csproj" t="IncludeRecursive" />
-              <e p="Infrastructure" t="Include" />
-              <e p="Program.cs" t="Include" />
-              <e p="README.md" t="Include" />
-              <e p="Startup.cs" t="Include" />
-              <e p="appsettings.Development.json" t="Include" />
-              <e p="appsettings.json" t="Include" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netcoreapp2.0" t="Include">
-                    <e p="Game.API.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="web.config" t="Include" />
+          <e p="Banking" t="IncludeRecursive">
+            <e p="Application" t="Include" />
+            <e p="Banking.csproj" t="IncludeRecursive" />
+            <e p="Controllers" t="Include">
+              <e p="ClientController.cs" t="Include" />
+              <e p="PaymentController.cs" t="Include" />
+              <e p="TransactionController.cs" t="Include" />
             </e>
-            <e p="Game.Domain" t="IncludeRecursive">
-              <e p="Aggregates" t="Include">
-                <e p="ChessPlayerAggregate" t="Include">
-                  <e p="ChessPlayer.cs" t="Include" />
-                  <e p="ChessPlayerLevel.cs" t="Include" />
-                  <e p="IChessPlayerRepository.cs" t="Include" />
-                </e>
-                <e p="MatchAggregate" t="Include">
-                  <e p="IMatchRepository.cs" t="Include" />
-                  <e p="Match.cs" t="Include" />
-                  <e p="MatchStatus.cs" t="Include" />
-                </e>
+            <e p="Data" t="Include">
+              <e p="DBApplicationContext.cs" t="Include" />
+              <e p="Entitites" t="Include">
+                <e p="Client.cs" t="Include" />
+                <e p="IEntity.cs" t="Include" />
+                <e p="Payment.cs" t="Include" />
+                <e p="Transaction.cs" t="Include" />
               </e>
-              <e p="Entity.cs" t="Include" />
-              <e p="Enumeration.cs" t="Include" />
-              <e p="Events" t="Include">
-                <e p="MatchStartedDomainEvent.cs" t="Include" />
+              <e p="Repository" t="Include">
+                <e p="ClientRepository.cs" t="Include" />
+                <e p="IClientRepository.cs" t="Include" />
+                <e p="IPaymentRepository.cs" t="Include" />
+                <e p="IRepository.cs" t="Include" />
+                <e p="PaymentRepository.cs" t="Include" />
+                <e p="Repository.cs" t="Include" />
               </e>
-              <e p="Exceptions" t="Include">
-                <e p="GameDomainException.cs" t="Include" />
+              <e p="UnitOfWork" t="Include">
+                <e p="IUnitOfWork.cs" t="Include" />
+                <e p="UnitOfWork.cs" t="Include" />
               </e>
-              <e p="Game.Domain.csproj" t="IncludeRecursive" />
-              <e p="IAggregateRoot.cs" t="Include" />
-              <e p="IRepository.cs" t="Include" />
-              <e p="IUnitOfWork.cs" t="Include" />
-              <e p="ValueObject.cs" t="Include" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="Game.Domain.AssemblyInfo.cs" t="Include" />
-                  </e>
+            </e>
+            <e p="Dockerfile" t="Include" />
+            <e p="Entities" t="Include">
+              <e p="Client.cs" t="Include" />
+              <e p="JobStatus.cs" t="Include" />
+              <e p="Payment.cs" t="Include" />
+              <e p="PaymentStatus.cs" t="Include" />
+              <e p="Transaction.cs" t="Include" />
+            </e>
+            <e p="Migrations" t="Include">
+              <e p="20171213023929_InitialMigration.Designer.cs" t="Include" />
+              <e p="20171213023929_InitialMigration.cs" t="Include" />
+              <e p="DbApplicationContextModelSnapshot.cs" t="Include" />
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="README.md" t="Include" />
+            <e p="Startup.cs" t="Include" />
+            <e p="ViewModel" t="Include">
+              <e p="PaginatedItemsViewModel.cs" t="Include" />
+            </e>
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp2.0" t="Include">
+                  <e p="Banking.AssemblyInfo.cs" t="Include" />
                 </e>
               </e>
             </e>
-            <e p="Game.Infrastructure" t="IncludeRecursive">
-              <e p="Class1.cs" t="Include" />
-              <e p="Game.Infrastructure.csproj" t="IncludeRecursive" />
-              <e p="bin" t="ExcludeRecursive" />
-              <e p="obj" t="ExcludeRecursive">
-                <e p="Debug" t="Include">
-                  <e p="netstandard2.0" t="Include">
-                    <e p="Game.Infrastructure.AssemblyInfo.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
+            <e p="web.config" t="Include" />
           </e>
         </e>
       </e>

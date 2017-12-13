@@ -9,53 +9,58 @@ namespace Banking.Data.Repository
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity
     {
-        protected readonly DbContext Context;
+        private readonly DbContext _context;
 
-        public Repository(DbContext context)
+        protected Repository(DbContext context)
         {
-            Context = context;
+            _context = context;
         }
 
-        public TEntity Get(int id)
+        public TEntity Get(Guid id)
         {
-            return Context.Set<TEntity>().Find(id);
+            return _context.Set<TEntity>().Find(id);
         }
 
         public IEnumerable<TEntity> GetAll()
         {
-            return Context.Set<TEntity>().ToList();
+            return _context.Set<TEntity>().ToList();
         }
 
         public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
-            return Context.Set<TEntity>().Where(predicate);
+            return _context.Set<TEntity>().Where(predicate);
         }
 
         public IEnumerable<TEntity> GetRange(int pageIndex, int pageSize)
         {
-            return Context.Set<TEntity>()
+            return _context.Set<TEntity>()
                 .Skip((pageIndex - 1) * pageSize)
                 .Take(pageSize);
         }
 
-        public void Add(TEntity entitity)
+        public void Add(TEntity entity)
         {
-            Context.Set<TEntity>().Add(entitity);
+            _context.Set<TEntity>().Add(entity);
         }
 
-        public void Remove(TEntity entitity)
+        public void Remove(TEntity entity)
         {
-            Context.Set<TEntity>().Add(entitity);
+            _context.Set<TEntity>().Remove(entity);
+        }
+        
+        public void Update(TEntity entity)
+        {
+            _context.Update(entity);
         }
 
         public void AddRange(IEnumerable<TEntity> entities)
         {
-            Context.Set<TEntity>().AddRange(entities);
+            _context.Set<TEntity>().AddRange(entities);
         }
 
         public void RemoveRange(IEnumerable<TEntity> entities)
         {
-            Context.Set<TEntity>().RemoveRange(entities);
+            _context.Set<TEntity>().RemoveRange(entities);
         }
     }
 }

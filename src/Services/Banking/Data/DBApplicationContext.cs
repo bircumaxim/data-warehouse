@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Banking.Data.Entitites;
+using Microsoft.EntityFrameworkCore;
 
 namespace Banking.Data
 {
@@ -6,18 +7,18 @@ namespace Banking.Data
     {
         protected DbApplicationContext()
         {
-//            Database.Migrate();
+            Database.Migrate();
         }
 
         public DbApplicationContext(DbContextOptions options) : base(options)
         {
-//            Database.Migrate();
+            Database.Migrate();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+            modelBuilder.Entity<Client>();
         }
     }
 }

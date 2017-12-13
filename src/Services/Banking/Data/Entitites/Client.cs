@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Banking.Data.Entitites
 {
@@ -9,9 +10,10 @@ namespace Banking.Data.Entitites
       public string LastName { get; set; }
       public string Cnp { get; set; }
 
+      public List<Payment> Payments;
+      
       public Client()
-      {
-         
+      {         
       }
       
       public Client(Guid id, string firstName, string lastName, string cnp)

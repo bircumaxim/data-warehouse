@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Banking.Data.Entitites;
+using Banking.Data.UnitOfWork;
 using Banking.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,28 +12,37 @@ namespace Banking.Controllers
     [Route("api/[controller]")]
     public class ClientController : Controller
     {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public ClientController(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
         [HttpGet(Name = "GetClient")]
         [ProducesResponseType(typeof(IEnumerable<Client>), (int) HttpStatusCode.OK)]
         [ProducesResponseType(typeof(PaginatedItemsViewModel<Client>), (int) HttpStatusCode.OK)]
         public async Task<IActionResult> Get([FromQuery] int offset, [FromQuery] int limit)
         {
-            return Ok(await GetClientAsync());
+            if (offset != 0 || limit != 0)
+            {
+                return Ok(new PaginatedItemsViewModel<Client>(offset, limit, limit - offset,
+                    _unitOfWork.ClientRepository.GetRange(offset, limit)));
+            }
+
+            return Ok(_unitOfWork.ClientRepository.GetAll());
         }
 
         [HttpGet("{id}", Name = "GetClientById")]
         [ProducesResponseType((int) HttpStatusCode.NotFound)]
         [ProducesResponseType(typeof(Client), (int) HttpStatusCode.OK)]
-        public async Task<IActionResult> GetById(String id)
+        public async Task<IActionResult> Get(Guid id)
         {
-            Guid guid;
-            if (Guid.TryParse(id, out guid)) //TODo replace
+            var client = _unitOfWork.ClientRepository.Get(id);
+            if (client != null)
             {
-                return BadRequest();
+                return Ok(client);
             }
-
-            //TODO get client by guid and if not null then return it otherwise return NotFound.
-
-            return Ok(await GetClientAsync());
             return NotFound();
         }
 
@@ -48,39 +58,45 @@ namespace Banking.Controllers
                 Cnp = client.Cnp
             };
 
-            return CreatedAtAction(nameof(GetById), new {id = newClient.Id}, null);
+            _unitOfWork.ClientRepository.Add(newClient);
+            _unitOfWork.Complete();
+
+            return CreatedAtAction(nameof(Get), new {id = newClient.Id}, null);
         }
 
         [HttpPut("{id}", Name = "PutClient")]
         [ProducesResponseType((int) HttpStatusCode.NotFound)]
         [ProducesResponseType((int) HttpStatusCode.Created)]
-        public async Task<IActionResult> Put(Guid id, [FromBody] Client client)
+        public async Task<IActionResult> Put(Guid id, [FromBody] Client newClient)
         {
-            return CreatedAtAction(nameof(GetById), new {id}, null);
-        }
-
-        [HttpDelete("{id}", Name = "DeleteMovie")]
-        [ProducesResponseType((int)HttpStatusCode.NoContent)]
-        public async Task<IActionResult> Delete(Guid id)
-        {
-            Client client = null; //TODO retrive client from DB
-
+            var client = _unitOfWork.ClientRepository.Get(id);
             if (client == null)
             {
                 return NotFound();
             }
 
-            //TODO remove client from DB \
-            return NoContent();
+            client.FirstName = newClient.FirstName;
+            client.LastName = newClient.LastName;
+            client.Cnp = newClient.Cnp;
+            _unitOfWork.ClientRepository.Update(client);
+            _unitOfWork.Complete();
+
+            return CreatedAtAction(nameof(Get), new {id}, null);
         }
 
-        private static Task<IEnumerable<Client>> GetClientAsync()
+        [HttpDelete("{id}", Name = "RemoveClient")]
+        [ProducesResponseType((int) HttpStatusCode.NoContent)]
+        public async Task<IActionResult> Remove(Guid id)
         {
-            return Task<IEnumerable<Client>>.Factory.StartNew(() => new List<Client>
+            var client = _unitOfWork.ClientRepository.Get(id);
+
+            if (client == null)
             {
-                new Client(Guid.NewGuid(), "Muhamed", "Ali", "testtesttest"),
-                new Client(Guid.NewGuid(), "Muhamed", "Ali", "testtesttest")
-            });
+                return NotFound();
+            }
+            _unitOfWork.ClientRepository.Remove(client);
+            _unitOfWork.Complete();
+            return NoContent();
         }
     }
 }

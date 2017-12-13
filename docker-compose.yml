@@ -1,12 +1,11 @@
 version: '3'
 
 services:
-
-  game.api:
-    image: data-warehouse/game.api:${TAG:-latest}
+  banking.api:
+    image: data-warehouse/banking.api:${TAG:-latest}
     build:
-      context: .
-      dockerfile: ./src/Services/Game/Game.API/Dockerfile    
+      context: ./
+      dockerfile: ./src/Services/Banking/Dockerfile    
     ports:
       - "5000:80"
 #   depends_on:
