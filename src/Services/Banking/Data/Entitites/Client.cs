@@ -9,11 +9,11 @@ namespace Banking.Data.Entitites
       public string FirstName { get; set; }
       public string LastName { get; set; }
       public string Cnp { get; set; }
+      public ICollection<Payment> Payments { get; set; }
 
-      public List<Payment> Payments;
-      
       public Client()
       {         
+         Payments = new List<Payment>();
       }
       
       public Client(Guid id, string firstName, string lastName, string cnp)

@@ -18,6 +18,8 @@ namespace Banking.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Transaction>();
+            modelBuilder.Entity<Payment>();
             modelBuilder.Entity<Client>();
         }
     }

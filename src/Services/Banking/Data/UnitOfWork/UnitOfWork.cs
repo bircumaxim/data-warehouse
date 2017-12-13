@@ -10,15 +10,17 @@ namespace Banking.Data.UnitOfWork
         {
             _context = context;
             ClientRepository = new ClientRepository(_context);
+            PaymentRepository = new PaymentRepoistory(_context);
         }
-        
+
         public IClientRepository ClientRepository { get; }
-           
+        public IPaymentRepository PaymentRepository { get; }
+
         public int Complete()
         {
             return _context.SaveChanges();
         }
-        
+
         public void Dispose()
         {
             _context.Dispose();

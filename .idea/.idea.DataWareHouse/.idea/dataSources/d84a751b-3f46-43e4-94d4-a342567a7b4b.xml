@@ -12,8 +12,7 @@
     </database>
     <schema id="4" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-12-13.04:43:33.159</IntrospectionTimestamp>
-      <IntrospectionStateNumber>558</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-12-13.06:51:24.947</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -32,68 +31,5 @@
     <schema id="9" parent="2" name="information_schema">
       <ObjectId>12703</ObjectId>
     </schema>
-    <table id="10" parent="4" name="Client">
-      <ObjectId>16391</ObjectId>
-      <StateNumber>558</StateNumber>
-    </table>
-    <table id="11" parent="4" name="__EFMigrationsHistory">
-      <ObjectId>16386</ObjectId>
-      <StateNumber>557</StateNumber>
-    </table>
-    <column id="12" parent="10" name="Id">
-      <Position>1</Position>
-      <DataType>uuid|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>558</StateNumber>
-    </column>
-    <column id="13" parent="10" name="Cnp">
-      <Position>2</Position>
-      <DataType>text|0</DataType>
-      <StateNumber>558</StateNumber>
-    </column>
-    <column id="14" parent="10" name="FirstName">
-      <Position>3</Position>
-      <DataType>text|0</DataType>
-      <StateNumber>558</StateNumber>
-    </column>
-    <column id="15" parent="10" name="LastName">
-      <Position>4</Position>
-      <DataType>text|0</DataType>
-      <StateNumber>558</StateNumber>
-    </column>
-    <index id="16" parent="10" name="PK_Client">
-      <ObjectId>16397</ObjectId>
-      <ColNames>Id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="17" parent="10" name="PK_Client">
-      <ObjectId>16398</ObjectId>
-      <ColNames>Id</ColNames>
-      <UnderlyingIndexName>PK_Client</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <column id="18" parent="11" name="MigrationId">
-      <Position>1</Position>
-      <DataType>varchar(150)|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>557</StateNumber>
-    </column>
-    <column id="19" parent="11" name="ProductVersion">
-      <Position>2</Position>
-      <DataType>varchar(32)|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>557</StateNumber>
-    </column>
-    <index id="20" parent="11" name="PK___EFMigrationsHistory">
-      <ObjectId>16389</ObjectId>
-      <ColNames>MigrationId</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="21" parent="11" name="PK___EFMigrationsHistory">
-      <ObjectId>16390</ObjectId>
-      <ColNames>MigrationId</ColNames>
-      <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>

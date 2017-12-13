@@ -8,6 +8,7 @@ namespace Banking.Data.Entitites
         public Transaction Transaction { get; set; }
         public DateTime From { get; set; }
         public DateTime Due { get; set; }
+        public Client Client { get; set; }
 
         public Payment()
         {
