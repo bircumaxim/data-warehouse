@@ -8,6 +8,7 @@ namespace Banking.Data.Entitites
       public Guid Id { get; set; }
       public string FirstName { get; set; }
       public string LastName { get; set; }
+      public string ImageUri { get; set; }
       public string Cnp { get; set; }
       public ICollection<Payment> Payments { get; set; }
 

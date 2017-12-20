@@ -59,6 +59,7 @@ namespace Banking.Controllers
                 Id = Guid.NewGuid(),
                 FirstName = client.FirstName,
                 LastName = client.LastName,
+                ImageUri = client.ImageUri,
                 Cnp = client.Cnp
             };
 
@@ -81,6 +82,7 @@ namespace Banking.Controllers
 
             client.FirstName = newClient.FirstName;
             client.LastName = newClient.LastName;
+            client.ImageUri = newClient.ImageUri;
             client.Cnp = newClient.Cnp;
             _unitOfWork.ClientRepository.Update(client);
             _unitOfWork.Complete();

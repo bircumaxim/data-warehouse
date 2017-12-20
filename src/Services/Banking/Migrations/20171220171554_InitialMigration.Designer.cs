@@ -11,7 +11,7 @@ using System;
 namespace Banking.Migrations
 {
     [DbContext(typeof(DbApplicationContext))]
-    [Migration("20171213203225_InitialMigration")]
+    [Migration("20171220171554_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
