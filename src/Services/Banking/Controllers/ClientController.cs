@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using Banking.Data.Entitites;
 using Banking.Data.UnitOfWork;
 using Banking.ViewModel;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.OData.Query.SemanticAst;
 
 namespace Banking.Controllers
 {
@@ -26,7 +28,7 @@ namespace Banking.Controllers
         public async Task<IActionResult> Get([FromQuery] int offset = 0, [FromQuery] int limit = 0)
         {
             IEnumerable<Client> clients;
-            
+
             if (offset != 0 || limit != 0)
             {
                 clients = _unitOfWork.ClientRepository.GetRange(offset, limit);
@@ -80,10 +82,10 @@ namespace Banking.Controllers
                 return NotFound();
             }
 
-            client.FirstName = newClient.FirstName;
-            client.LastName = newClient.LastName;
-            client.ImageUri = newClient.ImageUri;
-            client.Cnp = newClient.Cnp;
+            client.FirstName = newClient.FirstName ?? client.FirstName;
+            client.LastName = newClient.LastName ?? client.LastName;
+            client.ImageUri = newClient.ImageUri ?? client.ImageUri;
+            client.Cnp = newClient.Cnp ?? client.Cnp;
             _unitOfWork.ClientRepository.Update(client);
             _unitOfWork.Complete();
             return CreatedAtAction(nameof(Get), new {id}, null);

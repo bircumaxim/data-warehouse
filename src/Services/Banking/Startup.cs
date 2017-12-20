@@ -32,6 +32,8 @@ namespace Banking
             services.AddSingleton<IUnitOfWork, UnitOfWork>();
 
             services.AddSwaggerGen(c => { c.SwaggerDoc(_info.Version, _info); });
+            
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +54,12 @@ namespace Banking
             });
 
             app.UseMvc();
+            
+            app.UseCors(builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials()
+                .Build());
         }
     }
 }
